@@ -17,7 +17,11 @@
 >
 > *单击 🔙 跳转至对应项目列表。*
 >
-> *注：部分内容英文名词更达意，因此不做改动，原项目为 [A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)*
+> *注1：原项目为 [A-poc/RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools)。*
+>
+> *注2：分类命名采用于ATT&CK框架。*
+>
+> *注3：部分内容英文名词更达意，因此不做改动。*
 
 # Tool List
 
@@ -26,7 +30,7 @@
     <ul>
         <ul>
             <li><b><a href="#crtsh---httprobe---eyewitness">crt.sh -> httprobe -> EyeWitness</a></b><i> 自动化搜集子域名并截图</i></li>
-            <li><b><a href="#jsendpoints">jsendpoints</a></b><i> 提取页面 DOM link</i></li>
+            <li><b><a href="#jsendpoints">jsendpoints</a></b><i> 提取页面DOM链接</i></li>
             <li><b><a href="#nuclei">nuclei</a></b><i> 漏洞扫描</i></li>
             <li><b><a href="#certsniff">certSniff</a></b><i> 证书透明度嗅探器</i></li>
             <li><b><a href="#gobuster">gobuster</a></b><i> 网站路径爆破</i></li>
@@ -52,7 +56,7 @@
     <ul>
         <ul>
             <li><b><a href="#chimera">Chimera</a></b><i> PowerShell混淆</i></li>
-            <li><b><a href="#msfvenom">msfvenom</a></b><i> Payload creation</i></li>
+            <li><b><a href="#msfvenom">msfvenom</a></b><i> Payload生成</i></li>
             <li><b><a href="#wsh">WSH</a></b><i> Wsh payload</i></li>
             <li><b><a href="#hta">HTA</a></b><i> Hta  payload</i></li>
             <li><b><a href="#vba">VBA</a></b><i> Vba  payload</i></li>
