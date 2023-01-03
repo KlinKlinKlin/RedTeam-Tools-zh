@@ -22,7 +22,7 @@
 # Tool List
 
 <details open>
-    <summary><b>Reconnaissance(信息收集)</b> $\textcolor{gray}{\text{14 tools}}$</summary>
+    <summary><b>Reconnaissance(侦察)</b> $\textcolor{gray}{\text{14 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#crtsh---httprobe---eyewitness">crt.sh -> httprobe -> EyeWitness</a></b><i> 自动化搜集子域名并截图</i></li>
@@ -46,8 +46,9 @@
 
 
 
+
 <details open>
-    <summary><b>Resource Development</b> $\textcolor{gray}{\text{5 tools}}$</summary>
+    <summary><b>Resource Development(武器开发)</b> $\textcolor{gray}{\text{5 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#chimera">Chimera</a></b><i> PowerShell混淆</i></li>
@@ -58,6 +59,7 @@
         </ul>
     </ul>
 </details>
+
 
 <details open>
     <summary><b>Initial Access(初始访问)</b> $\textcolor{gray}{\text{6 tools}}$</summary>
@@ -75,51 +77,52 @@
 
 
 <details open>
-    <summary><b>Execution</b> $\textcolor{gray}{\text{8 tools}}$</summary>
+    <summary><b>Execution(执行命令)</b> $\textcolor{gray}{\text{8 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#responder">Responder</a></b><i> LLMNR, NBT-NS and MDNS嗅探</i></li>
-            <li><b><a href="#secretsdump">secretsdump</a></b><i> Remote hash dumper</i></li>
+            <li><b><a href="#secretsdump">secretsdump</a></b><i> 远程Hash dump</i></li>
             <li><b><a href="#evil-winrm">evil-winrm</a></b><i> WinRM shell</i></li>
-            <li><b><a href="#donut">Donut</a></b><i> In-memory .NET execution</i></li>
-            <li><b><a href="#macro_pack">Macro_pack</a></b><i> Macro obfuscation</i></li>
-            <li><b><a href="#powersploit">PowerSploit</a></b><i> PowerShell script suite</i></li>
-            <li><b><a href="#rubeus">Rubeus</a></b><i> Active directory hack tool</i></li>
-            <li><b><a href="#sharpup">SharpUp</a></b><i> Windows vulnerability identifier</i></li>
+            <li><b><a href="#donut">Donut</a></b><i> .NET内存执行</i></li>
+            <li><b><a href="#macro_pack">Macro_pack</a></b><i> 宏混淆</i></li>
+            <li><b><a href="#powersploit">PowerSploit</a></b><i> PowerShell script 套件</i></li>
+            <li><b><a href="#rubeus">Rubeus</a></b><i> 活动目录(AD)攻击工具</i></li>
+            <li><b><a href="#sharpup">SharpUp</a></b><i> Windows相关漏洞检查</i></li>
         </ul>
     </ul>
 </details>
 
 
+
 <details open>
-    <summary><b>Persistence</b> $\textcolor{gray}{\text{3 tools}}$</summary>
+    <summary><b>Persistence(权限维持)</b> $\textcolor{gray}{\text{3 tools}}$</summary>
     <ul>
         <ul>
-            <li><b><a href="#impacket">Impacket</a></b><i> Python script suite</i></li>
-            <li><b><a href="#empire">Empire</a></b><i> Post-exploitation framework</i></li>
-            <li><b><a href="#sharpersist">SharPersist</a></b><i> Windows persistence toolkit</i></li>
+            <li><b><a href="#impacket">Impacket</a></b><i> Python脚本套件</i></li>
+            <li><b><a href="#empire">Empire</a></b><i> 后渗透框架</i></li>
+            <li><b><a href="#sharpersist">SharPersist</a></b><i> Windows持久化工具包</i></li>
         </ul>
     </ul>
 </details>
 
 <details open>
-    <summary><b>Privilege Escalation</b> $\textcolor{gray}{\text{8 tools}}$</summary>
+    <summary><b>Privilege Escalation(权限提升)</b> $\textcolor{gray}{\text{8 tools}}$</summary>
     <ul>
         <ul>
-            <li><b><a href="#linpeas">LinPEAS</a></b><i> Linux privilege escalation</i></li>
-            <li><b><a href="#winpeas">WinPEAS</a></b><i> Windows privilege escalation</i></li>
-            <li><b><a href="#linux-smart-enumeration">linux-smart-enumeration</a></b><i> Linux privilege escalation</i></li>
-            <li><b><a href="#certify">Certify</a></b><i> Active directory privilege escalation</i></li>
-            <li><b><a href="#get-gpppassword">Get-GPPPassword</a></b><i> Windows password extraction</i></li>
-	    <li><b><a href="#sherlock">Sherlock</a></b><i> PowerShell privilege escalation tool</i></li>
-	    <li><b><a href="#watson">Watson</a></b><i> Windows privilege escalation tool</i></li>
-	    <li><b><a href="#impulsivedllhijack">ImpulsiveDLLHijack</a></b><i> DLL Hijack tool</i></li>
+            <li><b><a href="#linpeas">LinPEAS</a></b><i> Linux提权</i></li>
+            <li><b><a href="#winpeas">WinPEAS</a></b><i> Windows提权</i></li>
+            <li><b><a href="#linux-smart-enumeration">linux-smart-enumeration</a></b><i> Linux提权</i></li>
+            <li><b><a href="#certify">Certify</a></b><i> 活动目录(AD)提权</i></li>
+            <li><b><a href="#get-gpppassword">Get-GPPPassword</a></b><i> Windows密码提取(from GPP)</i></li>
+	    <li><b><a href="#sherlock">Sherlock</a></b><i> PowerShell提权</i></li>
+	    <li><b><a href="#watson">Watson</a></b><i> Windows提权</i></li>
+	    <li><b><a href="#impulsivedllhijack">ImpulsiveDLLHijack</a></b><i> DLL劫持工具</i></li>
         </ul>
     </ul>
 </details>
 
 <details open>
-    <summary><b>Defense Evasion</b> $\textcolor{gray}{\text{2 tools}}$</summary>
+    <summary><b>Defense Evasion(防御规避)</b> $\textcolor{gray}{\text{2 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#invoke-obfuscation">Invoke-Obfuscation</a></b><i> Script obfuscator</i></li>
@@ -129,7 +132,7 @@
 </details>
 
 <details open>
-    <summary><b>Credential Access</b> $\textcolor{gray}{\text{4 tools}}$</summary>
+    <summary><b>Credential Access(访问凭证)</b> $\textcolor{gray}{\text{4 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#mimikatz">Mimikatz</a></b><i> Windows credential extractor</i></li>
@@ -141,7 +144,7 @@
 </details>
 
 <details open>
-    <summary><b>Discovery</b> $\textcolor{gray}{\text{4 tools}}$</summary>
+    <summary><b>Discovery(发现)</b> $\textcolor{gray}{\text{4 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#pcredz">PCredz</a></b><i> Credential discovery PCAP/live interface</i></li>
@@ -153,7 +156,7 @@
 </details>
 
 <details open>
-    <summary><b>Lateral Movement</b> $\textcolor{gray}{\text{8 tools}}$</summary>
+    <summary><b>Lateral Movement(横向移动)</b> $\textcolor{gray}{\text{8 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#crackmapexec">crackmapexec</a></b><i> Windows/Active directory lateral movement toolkit</i></li>
@@ -169,7 +172,7 @@
 </details>
 
 <details open>
-    <summary><b>Collection</b> $\textcolor{gray}{\text{2 tools}}$</summary>
+    <summary><b>Collection(收集)</b> $\textcolor{gray}{\text{2 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#bloodhound">BloodHound</a></b><i> Active directory visualisation</i></li>
@@ -179,7 +182,7 @@
 </details>
 
 <details open>
-    <summary><b>Command and Control</b> $\textcolor{gray}{\text{6 tools}}$</summary>
+    <summary><b>Command and Control(命令和控制)</b> $\textcolor{gray}{\text{6 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#havoc">Havoc</a></b><i> Command and control framework</i></li>
@@ -193,7 +196,7 @@
 </details>
 
 <details open>
-    <summary><b>Exfiltration</b> $\textcolor{gray}{\text{5 tools}}$</summary>
+    <summary><b>Exfiltration(数据窃取)</b> $\textcolor{gray}{\text{5 tools}}$</summary>
     <ul>
         <ul>
 	    <li><b><a href="#dnscat2">Dnscat2</a></b><i> C2 via DNS tunneling</i></li>
@@ -206,13 +209,14 @@
 </details>
 
 <details open>
-    <summary><b>Impact</b> $\textcolor{gray}{\text{1 tools}}$</summary>
+    <summary><b>Impact(影响)</b> $\textcolor{gray}{\text{1 tools}}$</summary>
     <ul>
         <ul>
             <li><b><a href="#slowloris">SlowLoris</a></b><i> Simple denial of service</i></li>
         </ul>
     </ul>
 </details>
+
 
 Reconnaissance
 ====================
